@@ -1,0 +1,70 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: darkslategrey;
+}
+#app {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+.image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: green;
+}
+.image_text {
+  height: 10%;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background: red;
+}
+.yellow {
+  background: yellow;
+}
+.green {
+  background: green;
+}
+.cyan {
+  background: cyan;
+}
+.blue {
+  background: blue;
+}
+.purple {
+  background: purple;
+}
+.orange {
+  background: orange;
+}
+.brown {
+  background: brown;
+}
+.light {
+  background: #dcdcdc;
+}
+.dark {
+  background: #3a3a3a;
+}
+.pink {
+  background: pink;
+}
