@@ -7,9 +7,6 @@
   <title>Scroll Reveal</title>
   <link rel="stylesheet" href="style.css">
   <script src="node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
-  <script>
-    ScrollReveal().version;
-  </script>
 </head>
 <body>
   <div id="app">
@@ -146,5 +143,18 @@
       <div class="image_text">Card Text</div>
     </div>
   </div>
+  
+  <script>
+    ScrollReveal().reveal('.container', {
+      opacity: 0.4,
+      rotate: {
+        x: 0,
+        y: 90,
+        z: 0,
+      },
+      easing: 'cubic-bezier(0.5, 0, 0, 1)',
+      reset: true,
+    });
+  </script>
 </body>
 </html>
